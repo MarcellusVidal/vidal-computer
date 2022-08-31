@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppOutinModule } from './app-outin.module';
+import { NaoEncontrado2Component } from './nao-encontrado2/nao-encontrado2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NaoEncontrado2Component
   ],
   imports: [
     BrowserModule,
