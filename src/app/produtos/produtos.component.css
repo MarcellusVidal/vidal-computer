@@ -13,7 +13,7 @@
   padding: 10px;
   border-radius: 4px;
   flex: 0 1 270px;
-  height: 450px;
+  height: 500px;
   background-color: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -42,6 +42,7 @@
 .product-item__name {
   font-size: 24px;
   color: var(--blue);
+  text-align: center;
 }
 
 .product-item__price {
@@ -50,9 +51,9 @@
   font-weight: bold;
 }
 
-.product-item__price-deion {
+.product-item__price-description {
   color: var(--gray);
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -60,11 +61,14 @@
   background-color: var(--blue);
   border: none;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 6px 12px;
+  border-radius: 6px;
 }
 
 .product-item__buy-button:hover {
   filter: brightness(1.1);
   cursor: pointer;
+  background-color: rgb(243, 140, 4);
+  color: var(--light-gray);
 }

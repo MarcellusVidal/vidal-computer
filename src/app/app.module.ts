@@ -5,22 +5,25 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { AppOutinModule } from './app-outin.module';
+//import { AppOutinModule } from './app-outin.module';
 import { NaoEncontrado2Component } from './nao-encontrado2/nao-encontrado2.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NaoEncontrado2Component
+    NaoEncontrado2Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AppOutinModule
+    BrowserAnimationsModule,
+    MatSnackBarModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
