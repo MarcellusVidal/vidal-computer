@@ -8,25 +8,23 @@
 }
 
 .main-header__title {
-  font-size: 80px;
+  font-size: 92px;
   letter-spacing: -1.5px;
 }
 
 .main-header__title--blue {
-  color: var(--blue);
   color: blue;
   font-size: 60px;
 }
 
 .main-header__title--orange {
-  color: var(--orange);
   color: rgb(243, 140, 4);
   font-size: 60px;
 }
 
 .main-header__menu li {
   display: inline;
-  justify-content: center;
+  justify-content: right;
 }
 
 .main-header__menu a {
@@ -55,9 +53,4 @@
   padding: 5px 10px;
   border-radius: 4px;
   color: white;
-}
-
-.search-form {
-  height: 44px;
-  display: flex;
 }
